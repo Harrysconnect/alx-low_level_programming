@@ -4,10 +4,10 @@
  * _putchar - writes the character c to stdout
  * @c: The character to print
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appriopriately.
+ * On error, -1 is returned, and errno is set appriopriatelyi.
  */
 
-int putchar(char c)
+int _putchar(char c)
 {
-	return (fwrite(1, &c, 1));
+	return (write(1, &c, 1));
 }
