@@ -3,10 +3,11 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by
- * but for multiples of three prints Fizz instead of the 
+ * but for multiples of three prints Fizz instead of the
  * and for the multiples of five prints Buzz
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int i;
